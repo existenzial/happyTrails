@@ -4,10 +4,10 @@ require("env2")("config.env");
 const db = knex({
   client: "mysql",
   connection: {
-    host: "127.0.0.1",
-    user: "root",
-    password: `${process.env.MYSQLPWD}`,
-    database: "happytrails"
+    host: `${process.env.MYSQL_HOST}`,
+    user: `${process.env.MYSQL_USR}`,
+    password: `${process.env.MYSQL_PWD}`,
+    database: `${process.env.MYSQL_DB}`
   }
 });
 
