@@ -18,6 +18,7 @@
     "babel-register": "^6.18.0",
     "bcrypt-nodejs": "0.0.3",
     "body-parser": "^1.15.2",
+    "env2": "^2.1.1",
     "express": "^4.14.0",
     "express-session": "^1.14.2",
     "hjs": "0.0.6",

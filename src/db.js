@@ -1,4 +1,5 @@
 const knex = require("knex");
+require("env2")("config.env");
 
 const db = knex({
   client: "mysql",

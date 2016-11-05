@@ -1,9 +1,10 @@
 node_modules
 bower_components
 
-.DS_Store
+config.env
 
 .sass-cache
 *.css.map
 
+.DS_Store
 npm-debug.log
