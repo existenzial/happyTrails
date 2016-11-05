@@ -1,0 +1,30 @@
+{
+  "name": "happytrails",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main",
+    "dev": "nodemon main",
+    "pretest": "echo Starting tests!!",
+    "test": "node test",
+    "posttest": "echo Finished running tests!!",
+    "test-watch": "nodemon test"
+  },
+  "author": "Jazz Lyles <ripley36706@gmail.com> (https://github.com/existenzial)",
+  "license": "ISC",
+  "dependencies": {
+    "babel-preset-es2015": "^6.18.0",
+    "babel-register": "^6.18.0",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "express-session": "^1.14.2",
+    "hjs": "0.0.6",
+    "knex": "^0.12.6",
+    "mysql": "^2.12.0",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "serve-favicon": "^2.3.0"
+  }
+}
