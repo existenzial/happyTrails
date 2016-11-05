@@ -1,7 +1,9 @@
 # happyTrails
 [![Build Status](https://travis-ci.org/existenzial/happyTrails.svg?branch=master)](https://travis-ci.org/existenzial/happyTrails)
 
-A fun hiking app to put that skip back in your step.
+![happyTrails](/public/favicon.ico)
+
+A fun hiking app designed to put that skip back in your step.
 
 * Discover trails near you within walking distance!
 * Save your favorite paths and recommend them to your friends!

@@ -4,10 +4,13 @@ const router = express.Router();
 
 /*
 GET   to  /
+
 GET   to  /login
 POST  to  /login
+
 GET   to  /signup
 POST  to  /signup
+
 GET   to  /logout
 */
 
